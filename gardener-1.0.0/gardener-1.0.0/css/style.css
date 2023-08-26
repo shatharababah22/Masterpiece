@@ -1056,7 +1056,7 @@ text-align: center;
 	--pm: #2c6a39;
 }
 
-label {
+.label {
 	content: '';
 	margin: 0 10px;
 	height: var(--ddim);
