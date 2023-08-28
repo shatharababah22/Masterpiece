@@ -31,59 +31,101 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="./css/sign.css"  rel="stylesheet">
+	<script>
+		// JavaScript function to toggle between sign-in and sign-up sections
+		function toggleSections() {
+			const signInSection = document.getElementById('signInSection');
+			const signUpSection = document.getElementById('signUpSection');
+	
+			signInSection.classList.toggle('d-none'); // Hide sign-in section
+			signUpSection.classList.toggle('d-none'); // Show sign-up section
+		}
+	</script>
 </head>
 
 <body>
     
 
 
+	<section class="container-fluid ">
+        <div class="row vh-100" id="loginSection">
+            <div class="col-md-7 col-12">
+                <div class="fw-medium p-2"><span class="brand fw-bold"><img  src="./images/3.PNG" width="100px"></div>
+                <div class="px-4 sign-container mx-auto">
+                    <div class="text-center mt-5  ">
+                        <h2 class="brand fs-1 my-4">Sign in to Account</h2>
+                        <div class="mb-2 mx-auto signin-border "></div>
+                        <div class="d-flex justify-content-center align-items-center mt-3">
+                            <div >
+								<a class="btn btn-square btn-lg  rounded-circle me-2" style="width: 3rem; height: 3rem;  border-color: rgb(236, 223, 125); " href=""><i class="fab fa-facebook-f fa-2x" style="color: rgb(236, 223, 125)"></i></a>
+                            </div>
+                            <div >
+									<a class="btn btn-square   rounded-circle me-2 " style="width: 3rem; height: 3rem;  border-color: rgb(236, 223, 125);" href=""><i class="fab fa-twitter fa-2x" style="color: rgb(236, 223, 125)" ></i></a>
+                            </div>
+                            <div >
+								<a class="btn btn-square  btn-5x  rounded-circle me-2 " style="width: 3rem; height: 3rem;  border-color: rgb(236, 223, 125);" href=""><i class="fab fa-linkedin-in fa-2x" style="color: rgb(236, 223, 125)"></i></a>
+                            </div>
+							<div >
+								<a class="btn btn-square  rounded-circle me-2" style="width: 3rem; height: 3rem;  border-color: rgb(236, 223, 125);" href=""><i class="fab fa-google fa-2x" style="color:rgb(236, 223, 125)"></i></a>
+                            </div>
+                        </div>
+                        <form>
+                        <div class="pt-4">or use your email account</div>
+                        <div class="position-relative my-4">
+                            <input class="form-control inputbox shadow-none p-2" type="email" name="email" id="email"
+                               >
+                            <div class="input-label position-absolute  px-2 bg-white z-1">
+                                <label for="email" class="control-label">Email</label>
+                            </div>
+                        </div>
+                        <div class="position-relative my-5">
+                            <input class="form-control inputbox shadow-none p-2" type="password" name="password"
+                                id="password">
+                            <div class="input-label position-absolute px-2 bg-white z-1">
+                                <label for="email" class="control-label">Password</label>
+                            </div>
+                        </div>
+                    </form>
+                        <div class="d-flex justify-content-between align-items-center  mx-auto">
+                            <div>
+                                <input type="checkbox" name="check" id="check">
+                                <label for="check">Remember me</label>
+                            </div>
+                            <a href="#" class="text-reset text-decoration-none fw-bold">Forgot Password?</a>
+                        </div>
+						<a href="" class="btn btn-primary btn-box py-sm-2 px-sm-5 mt-4">Login</a>
+                        <div class="p-3 mt-3">
+                            <a class="text-decoration-none text-reset" href="#">Privacy Policy</a>
+                            . <a class="text-decoration-none text-reset" href="#">Terms & Condtions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-12 right-box d-flex">
+                <div class=" text-center m-auto m-5 p-5" style="background-color: rgba(240, 248, 255, 0.795);">
+                    <h2 class="fw-bolder fs-1 my-4">Hello, Friend!</h2>
+                    <div class="signin-border border border-2 mx-auto mb-1" style="color:#2c6a39;"></div>
+                    <span class="mt-3">If you don't have account?Sign up Now</span><br>
+                    <a href="#" class="btn btn-primary btn-box py-sm-2 px-sm-5 mt-3" >SignUp</a>
 
-<div class="container mt-5" id="container">
-	<div class="form-container sign-up-container ">
-		<form action="#">
-			<h1>Create Account</h1>
-			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-			</div>
-			<span>or use your email for registration</span>
-			<input type="text" placeholder="Name" />
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<button>Sign Up</button>
-		</form>
-	</div>
-	<div class="form-container sign-in-container">
-		<form action="#">
-			<h1>Sign in</h1>
-			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-			</div>
-			<span>or use your account</span>
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<a href="#">Forgot your password?</a>
-			<button>Sign In</button>
-		</form>
-	</div>
-	<div class="overlay-container">
-		<div class="overlay">
-			<div class="overlay-panel overlay-left">
-				<h1>Welcome Back!</h1>
-				<p>To keep connected with us please login with your personal info</p>
-				<button class="ghost" id="signIn">Sign In</button>
-			</div>
-			<div class="overlay-panel overlay-right">
-				<h1>Hello, Friend!</h1>
-				<p>Enter your personal details and start journey with us</p>
-				<button class="ghost" id="signUp">Sign Up</button>
-			</div>
-		</div>
-	</div>
-</div>
+					
+                </div>
+            </div>
+        </div>
+
+
+    
+
+
+            
+
+    </section>
+
+
+
+
+
+
 
 
 
@@ -125,6 +167,9 @@
     <script src="lib/parallax/parallax.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

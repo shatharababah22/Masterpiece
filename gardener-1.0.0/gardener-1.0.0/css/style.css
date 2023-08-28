@@ -520,7 +520,7 @@ text-align: center;
 }
 
 .page-header {
-    background: linear-gradient(rgba(15, 66, 41, .4), rgba(15, 66, 41, .4)), url(/gardener-1.0.0/images/404-transformed.jpeg) center center no-repeat;
+    background: linear-gradient(rgba(15, 66, 41, .4), rgba(15, 66, 41, .4)), url(/gardener-1.0.0/gardener-1.0.0/images/404-transformed.jpeg) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
@@ -1137,7 +1137,7 @@ input[id="dot-8"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + va
 
 
 .page-header1 {
-    background: linear-gradient(rgba(15, 66, 41, .4), rgba(15, 66, 41, .4)), url(/gardener-1.0.0/images/aboutttt.jpeg) center center no-repeat;
+    background: linear-gradient(rgba(15, 66, 41, .4), rgba(15, 66, 41, .4)), url(/gardener-1.0.0/gardener-1.0.0/images/aboutttt.jpeg) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
