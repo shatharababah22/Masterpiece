@@ -6,6 +6,8 @@
             max-width: 470px;
         }
 
+
+        
         .icon-height {
             height: 24px;
             width: 24px;
@@ -14,7 +16,10 @@
         .right-box {
             background-image: url(/gardener-1.0.0/gardener-1.0.0/images/sign3.jpg);
             background-repeat: no-repeat;
+        
             background-size: cover;
+            
+
         }
 
         .inputbox {

@@ -1166,3 +1166,138 @@ input[id="dot-8"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + va
 }
 
 
+
+/* contact */
+
+.contact_top_desc {
+  color: #787777;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact_info_thumb_left {
+  top: 77px;
+  left: -77px;
+}
+
+.contact_info_thumb_right {
+  bottom: -48px;
+  right: -47px;
+}
+
+.contact_us_info .form_item input,
+.contact_us_info .form_item textarea {
+  margin-top: 20px;
+}
+.contact_us_info .custom_btn {
+  margin-top: 30px;
+}
+
+#mapBox {
+  min-height: 615px;
+  margin-bottom: 70px;
+}
+
+.address_sec_cont {
+    margin-top: 100px;
+  width: 100%;
+  height: 250px;
+  padding: 70px 50px 60px 40px;
+  background-color: #e8f5e940;
+}
+.address_sec_cont .address_author {
+  top: -47px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 90px;
+  height: 90px;
+  font-size: 30px;
+  border-radius: 100%;
+  line-height: 80px;
+}
+.address_sec_cont .address_author2 {
+  top: -47px;
+  left: 38%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 90px;
+  height: 90px;
+  font-size: 30px;
+  border-radius: 100%;
+  line-height: 80px;
+}
+
+.address_author3 {
+  top: -47px;
+  right: 13%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 90px;
+  height: 90px;
+  font-size: 30px;
+  border-radius: 100%;
+  line-height: 80px;
+}
+
+.address_title {
+    color: rgb(16, 133, 16);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.address_desc {
+  color: rgb(16, 133, 16);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.collection_sec_wrap {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  border-radius: 30px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.collection_cont_wrap {
+  max-width: 630px;
+}
+
+.collection_title h2 {
+  color: #303030;
+  font-size: 46px;
+  font-family: 400;
+  position: relative;
+  z-index: 3;
+}
+.collection_title h2 font {
+  color: #82c408;
+  z-index: 3;
+}
+.collection_title number {
+  top: -183px;
+  right: -39px;
+  color: rgb(16, 133, 16);
+  font-size: 300px;
+  font-weight: 900;
+  z-index: 1;
+}
+
+.collection_desc {
+  max-width: 540px;
+  position: relative;
+  z-index: 3;
+}
+.collection_desc p {
+  color: #525252;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  padding-top: 15px;
+}
+
+
+
