@@ -226,16 +226,21 @@ h6,
 
     padding: 10px 45px;
 
-    margin-left: 100px;
+    
     color: #ffffff;
     border-radius: 35px;
     transition: all 0.3s;
     text-transform: uppercase;
-    margin-top: 35px;
+    margin-top: 37px;
 text-align: center;
     font-weight: 600;
     width: 80%;
     
+  }
+  .btn2{
+    padding: 5px 10px;
+    height: 37px;
+    border-radius: 9px;
   }
   
 
@@ -551,7 +556,7 @@ text-align: center;
 /*** Facts & Quote ***/
 .facts,
 .quote {
-    background: rgba(15, 66, 41, .6);
+    background: rgba(15, 66, 41, 0.412);
 }
 
 
@@ -874,6 +879,7 @@ text-align: center;
 
 
 
+
 /* product */
 .product-grid{ font-family: 'Poppins', sans-serif; }
 .product-grid .product-image{
@@ -956,12 +962,14 @@ text-align: center;
     opacity: 0;
     transform: translateX(100%);
     transition: all .3s ease;
+    
 }
 .product-grid .product-links li:nth-child(2){ transition-delay: .1s; }
 .product-grid .product-links li:nth-child(3){ transition-delay: .2s; }
 .product-grid:hover .product-links li{
     opacity: 1;
     transform: translateX(0); 
+    
 }
 .product-grid .product-links li a{
     color:  #045e31;
@@ -994,13 +1002,13 @@ text-align: center;
 .product-grid .rating li{ display: inline-block; }
 .product-grid .rating .disable{ color: #a3a3a3; }
 .product-grid .title{
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     text-transform: capitalize;
     margin: 0 0 8px;
 }
 .product-grid .title a{
-    color: #333;
+    color: #0a501b;
     transition: all 0.3s ease 0s;
 }
 .product-grid .title a:hover{ color: #045e31; }
@@ -1018,7 +1026,7 @@ text-align: center;
 }
 .product{
     border: #2c6a39 2px dotted;
-    height: 450px;
+    height: 480px;
     border-radius: 20px;
     width: 30%;
 }
